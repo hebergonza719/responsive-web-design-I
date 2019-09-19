@@ -199,6 +199,10 @@ footer p {
   margin-top: 4%;
 }
 
+header nav hr {
+  display: none;
+}
+
 
 /*this is for tablet viewport*/
 @media (max-width: 800px) {
@@ -263,6 +267,18 @@ footer p {
 
   .content-bottom div p {
     font-size: 100%;
+  }
+}
+
+/*this is for mobile viewport*/
+@media (max-width: 500px) {
+  .container header nav {
+    flex-direction: column;
+  }
+
+  header nav hr {
+    display: initial;
+    width: inherit;
   }
 
 
